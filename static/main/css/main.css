@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+.top-menu {
+  background: #303030;
+  box-shadow: 3px 0 7px rgba(0,0,0,.3);
+  padding: 20px;
+}
+.top-menu:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.navbar-logo {display: inline-block; padding-left: 350px;}
+aside .logo {
+  color: #f03030;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 25px;
+  position: relative;
+  bottom: -6px;
+}
+
+.top-menu a {
+  text-decoration: none;
+}
+.menu-main {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-right: 350px;
+  float: right;
+}
+.menu-main li {display: inline-block;}
+.menu-main a {
+  text-decoration: none;
+  display: block;
+  position: relative;
+  line-height: 60px;
+  padding-left: 20px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-family: 'Press Start 2P', sans-serif;
+  font-weight: regular;
+  color: #829dff;
+}
+
+
+.menu-main a:hover:before {opacity: 1;}
+@media (max-width: 660px) {
+.menu-main {
+  float: none;
+  padding-top: 20px;
+}
+.top-menu {
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+.menu-main a {padding: 0 10px;}
+.menu-main a:before {transform: rotate(45deg) translateX(-6px);}
+}
+@media (max-width: 600px) {
+.menu-main li {display: block;}
+}
+body {
+    color: black;
+    background: white;
+    text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  flex: 0 0 auto;
+}

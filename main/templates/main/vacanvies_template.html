@@ -1,0 +1,21 @@
+{% extends 'main/mainpage.html' %}
+{% load static %}
+{% block content %}
+    <div>
+        {% for vacancy in vacancies %}
+            <div class="gerrry_neitral">
+                <h2>{{ vacancy.name }}</h2>
+                <br>
+                <p><b>Зарплата:</b> {{ vacancy.salary }}</p>
+                <p>{{ vacancy.description|safe }}</p>
+                <p><strong>Условия:</strong></p>
+                <p><b>Навыки:</b>{{ vacancy.key_skills }}</p>
+                <p><b>Компания:</b>{{ vacancy.employer.name }}</p>
+                <p><b>Расположение:</b> {{ vacancy.area.name }}</p>
+                <p><b>Дата публикации:</b> {{ vacancy.published_at}}</p>
+                <br>
+            </div>
+        <br><br><br>
+        {% endfor %}
+    </div>
+{% endblock %}

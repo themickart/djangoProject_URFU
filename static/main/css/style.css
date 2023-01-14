@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+.hometext {
+  text-align: center;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.centery {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+
+.hometext_left {
+  margin-left: 300px;
+}
+
+.hometext_left2 {
+  margin-left: 350px;
+}
+
+.homeh1 {
+    font-family: 'Press Start 2P';
+    text-align: center;
+    margin: 10px;
+}
+
+.gerrrybig {
+    text-align: center;
+    background: #d63838;
+    color: white;
+    box-shadow: 3px 0 7px rgba(0,0,0,.3);
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 20px;
+    font-size: 35px;
+    padding-bottom: 10px;
+    font-family: 'Press Start 2P';
+}
+
+.gerrry {
+    text-align: center;
+    background: #d6d138;
+    color: white;
+    box-shadow: 3px 0 7px rgba(0,0,0,.3);
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 20px;
+    font-size: 16px;
+    padding-bottom: 5px;
+    font-family: 'Press Start 2P';
+}
+
+.gerrry_2 {
+    text-align: center;
+    background: #38d66d;
+    color: white;
+    box-shadow: 3px 0 7px rgba(0,0,0,.3);
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 20px;
+    font-size: 16px;
+    padding-bottom: 5px;
+    font-family: 'Press Start 2P';
+}
+
+.gerrry_left {
+    text-align: left;
+    background: #38b1d6;
+    color: white;
+    box-shadow: 3px 0 7px rgba(0,0,0,.3);
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 20px;
+    font-size: 16px;
+    padding-bottom: 5px;
+    font-family: 'Press Start 2P';
+}
+
+.gerrry_neitral {
+    text-align: left;
+    background: white;
+    color: black;
+    box-shadow: 0px 0 7px rgba(0,0,0,.3);
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 20px;
+    font-size: 17px;
+    padding-bottom: 5px;
+    /*font-family: 'Press Start 2P';*/
+    font-weight: regular;
+}

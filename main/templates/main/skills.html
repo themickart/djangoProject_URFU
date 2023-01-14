@@ -1,0 +1,16 @@
+{% extends 'main/mainpage.html' %}
+{% load static %}
+{% block content %}
+    <div class="wrapper">
+
+    <link rel="stylesheet" href="{% static 'main/css/main.css' %}">
+    <link rel="stylesheet" href="{% static 'main/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'main/css/footer.css' %}">
+    {{ skillspage.text|safe }}
+    </div>
+
+
+
+
+
+{% endblock %}
