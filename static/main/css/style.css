@@ -12,6 +12,13 @@
     padding: 50px;
 }
 
+.centery2 {
+    height: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .hometext_left {
   margin-left: 300px;
 }
