@@ -21,12 +21,12 @@ def clean_vacancy(vacancy):
 def get_vacancies():
     try:
         params = {
-            'text': 'Gamedev', #название твоей професии
+            'text': 'Gamedev',
             'specialization': 1,
             'page': 1,
             'per_page': 100,
             'date_from': f'2015-12-15T00:00:00+0300',
-            'date_to': f'2022-12-17T00:00:00+0300',
+            'date_to': f'2023-12-30T00:00:00+0300',
 
         }
         data = []
